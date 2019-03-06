@@ -22,7 +22,32 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.CharactersList_wrapper {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.char-card {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.character {
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
 }
